@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import PublicView from '../components/PublicView';
-import ArtistView from '../components/ArtistView';
+import PublicView from './PublicView';
+import ArtistView from './ArtistView';
 import '../App.css'; // <--- AQUI ESTÁ A CORREÇÃO DE CAMINHO
 
 function App() {
