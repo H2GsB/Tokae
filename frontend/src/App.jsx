@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button.jsx'
 import { Music, User, Settings } from 'lucide-react'
-import PublicView from './PublicView' // Caminho corrigido
-import ArtistView from './ArtistView' // Caminho corrigido
-import './index.css' // CORREÇÃO FINAL: O nome do arquivo é index.css, não App.css
+import PublicView from './PublicView'
+import ArtistView from './ArtistView'
+import '../index.css' // CORREÇÃO FINAL: Usando o caminho 'voltar uma pasta' para o index.css
 
 function App() {
   const [view, setView] = useState('public') // 'public' ou 'artist'
