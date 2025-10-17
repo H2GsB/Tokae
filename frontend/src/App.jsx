@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PublicView from './PublicView';
 import ArtistView from './ArtistView';
-import '../App.css'; // <--- AQUI ESTÁ A CORREÇÃO DE CAMINHO
+import './App.css'; // <--- AQUI ESTÁ A CORREÇÃO DE CAMINHO
 
 function App() {
   const [view, setView] = useState('public'); // 'public' or 'artist'
